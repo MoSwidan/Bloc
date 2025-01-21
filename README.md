@@ -1,16 +1,17 @@
-# bloc_app
+# Flutter BLoC Demo
 
-A new Flutter project.
+This project demonstrates the use of the BLoC pattern in Flutter to manage state for a counter and theme toggling.
 
-## Getting Started
+## Features
+- **Counter BLoC**: Manages the state of a counter.
+- **Theme BLoC**: Toggles between light and dark themes.
+- **BlocConsumer**: Combines BlocListener and BlocBuilder to show a SnackBar when the counter reaches 5.
 
-This project is a starting point for a Flutter application.
+## Screenshots
+![Screenshot](Screenshot_1.png) ![Screenshot](Screenshot_2.png)
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## How to Run
+1. Clone the repository.
+2. Run `flutter pub get`.
+3. Run `flutter run`.
